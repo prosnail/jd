@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单轮播图</title>
+    <!--<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>-->
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+<div class="header">
+    <h2>淡入淡出效果的简单轮播图</h2>
+    <p>(使用了CSS3新特性，旧版本浏览器可能会失效)</p>
+    <div class="myGit"><a href="https://github.com/prosnail" target="_blank">My Github</a></div>
+</div>
+<div class="content">
+    <div class="img-container" id="img-container">
+        <img src="img/01.jpg" alt="">
+        <img src="img/02.jpg" alt="">
+        <img src="img/03.jpg" alt="">
+        <img src="img/04.jpg" alt="">
+        <img src="img/05.jpg" alt="">
+        <div class="mark leftM" id="leftM"></div>
+        <div class="mark rightM" id="rightM"></div>
+        <div class="p-box">
+            <div class="pagination" id="pagination" onclick="changeImg(event)">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+            </div>
+        </div>
+    </div>
+    <p id="count">4秒切换</p>
+</div>
+
+<script src="js/carousel.js"></script>
+</body>
+</html>

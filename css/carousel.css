@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(rgb(132, 222, 187), rgb(33, 222, 156));
+    overflow: hidden;
+    text-align: center;
+}
+body{
+    background: #d3d3d3;
+}
+.header h2{
+    color: #ffffff;
+    margin-top: 2em;
+}
+.header p{
+    color: #ffffff;
+    font-size: 12px;
+}
+.myGit{
+    text-align: center;
+    margin-top: 1em;
+}
+.myGit a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    width: 7em;
+    line-height: 2em;
+    text-align: center;
+    transition: all 1s;
+}
+.myGit a:hover{
+    background: #dddddd;
+    color: #00BBFF;
+    border: 1px solid #00BBFF;
+}
+.img-container{
+    width: 34em;
+    height: 20em;
+    margin: 2em auto;
+    position: relative;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.img-container .active{
+    opacity: 1;
+}
+.mark{
+    opacity: 0.5;
+    display: none;
+    cursor: pointer;
+}
+.img-container:hover .mark{
+    display: block;
+}
+.leftM{
+    position: absolute;
+    top: 45%;
+    left: 0.5em;
+    border-left: 0em solid transparent;
+    border-top: 1.5em solid transparent;
+    border-bottom: 1.5em solid transparent;
+    border-right: 3em solid #00BBFF;
+}
+.rightM{
+    position: absolute;
+    top: 45%;
+    right: 0.5em;
+    border-left: 3em solid #00BBFF;
+    border-top: 1.5em solid transparent;
+    border-bottom: 1.5em solid transparent;
+    border-right: 0em solid transparent;
+}
+.pagination{
+    position: absolute;
+    left: 38%;
+    bottom: 1em;
+}
+.pagination span{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #00BBFF;
+    color: #ffd08a;
+    text-align: center;
+    cursor: pointer;
+}
+.pagination .spanActive{
+    background-color: brown;
+}
+#count{
+    text-align: center;
+    color: darkred;
+    font-size: 18px;
+}
