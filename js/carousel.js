@@ -52,15 +52,17 @@ function startImg(){
     timer=setInterval(nextImg,4000);
 }
 function changeImg(e){
-    console.log(e.target.innerHTML);
-    nowIndex= e.target.innerHTML-1;
-    for(var i=0;i<imgArr.length;i++){
-        imgArr[i].className='';
-        pageArr[i].className='';
+    if(e.target.nodeName=='SPAN'){
+        nowIndex= e.target.innerHTML-1;
+        for(var i=0;i<imgArr.length;i++){
+            imgArr[i].className='';
+            pageArr[i].className='';
+        }
+        if(nowIndex>imgArr.length-1){
+            nowIndex=0;
+        }
+        imgArr[nowIndex].className='active';
+        pageArr[nowIndex].className='spanActive';
     }
-    if(nowIndex>imgArr.length-1){
-        nowIndex=0;
-    }
-    imgArr[nowIndex].className='active';
-    pageArr[nowIndex].className='spanActive';
+
 }
