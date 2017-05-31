@@ -2,37 +2,226 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>简单轮播图</title>
-    <!--<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>-->
-    <link rel="stylesheet" href="css/carousel.css">
+    <meta content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width" name="viewport"/>
+    <title>京东到家</title>
+
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css"/>
+    <link rel="stylesheet" href="css/jddj.css"/>
+
 </head>
 <body>
-<div class="header">
-    <h2>淡入淡出效果的简单轮播图</h2>
-    <p>(使用了CSS3新特性，旧版本浏览器可能会失效)</p>
-    <div class="myGit"><a href="https://github.com/prosnail" target="_blank">My Github</a></div>
-</div>
-<div class="content">
-    <div class="img-container" id="img-container">
-        <img src="img/01.jpg" alt="">
-        <img src="img/02.jpg" alt="">
-        <img src="img/03.jpg" alt="">
-        <img src="img/04.jpg" alt="">
-        <img src="img/05.jpg" alt="">
-        <div class="mark leftM" id="leftM"></div>
-        <div class="mark rightM" id="rightM"></div>
-        <div class="p-box">
-            <div class="pagination" id="pagination" onclick="changeImg(event)">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-                <span>5</span>
+<div class="jddj">
+    <section>
+        <header>
+            <div class="location">
+                <i class="i1"></i>
+                <p>您的位置</p>
+                <i class="i2"></i>
             </div>
-        </div>
-    </div>
-</div>
+            <a href="" class="i3"></a>
+        </header>
 
-<script src="js/carousel.js"></script>
+        <article>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/570631f3Nf01957ff.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/570521f3Nbbc2c7d3.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/5704e4f8Na1a49a23.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/5703f45fN3a463736.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/56fe0b90Na4fa5452.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/56dfee6aN95e898b2.jpg"/>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="classify">
+                <a href="">
+                    <img src="img/56bbf69bNeb305b26.png"/>
+                    <p>超市</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf6aeN9e8d8ca7.jpg"/>
+                    <p>生鲜</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf6c0N9756ffa0.png"/>
+                    <p>外卖美食</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf6cdNa4b44de8.png"/>
+                    <p>鲜花蛋糕</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf6d8N8ebb3a30.png"/>
+                    <p>医药健康</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf6e5Nf6111663.png"/>
+                    <p>家政</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf6faN839e4a3b.png"/>
+                    <p>洗衣</p>
+                </a>
+                <a href="">
+                    <img src="img/56bbf707N254c354a.png"/>
+                    <p>按摩美业</p>
+                </a>
+            </div>
+
+            <div class="prefer">
+                <div>
+                    <a href="">
+                        <img src="img/568ccc26Nfc57d119.png"/>
+                        <p>优惠集合</p>
+                    </a>
+                    <a href="">
+                        <img src="img/568cd5e2N53bcb082.png"/>
+                        <p>运费优惠</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="huiyuan">
+                <div>
+                    <img src="img/57067e11N70a1d6fd.jpg"/>
+                </div>
+            </div>
+
+            <div class="tuijian">
+                <ul>
+                    <li>
+                        <div class="tuijian-desc">
+                            <p class="p1">永辉超市</p>
+                            <span>新鲜绿色</span>
+                        </div>
+                        <img src="img/56f53097Nbfbe2abd.png"/>
+                    </li>
+                    <li>
+                        <div class="tuijian-desc">
+                            <p class="p2">一元抢购</p>
+                            <span>全场8折</span>
+                        </div>
+                        <img src="img/56f26150N3a063bfe.png"/>
+                    </li>
+                    <li>
+                        <div class="tuijian-desc">
+                            <p class="p3">滴露品牌</p>
+                            <span>限时一元抢</span>
+                        </div>
+                        <img src="img/57064a70Ndd1d3e29.png"/>
+                    </li>
+                    <li>
+                        <div class="tuijian-desc">
+                            <p class="p4">鲜家精品</p>
+                            <span>超值满减中</span>
+                        </div>
+                        <img src="img/56fc8578N5a4c5dce.png"/>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/56f1efffN4580dc2d.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/5706bf54Nd2950d40.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/5706a302Ne156d097.jpg"/>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="remai">
+                <ul>
+                    <li>
+                        <p>新客福利</p>
+                        <span>立减5元起</span>
+                        <img src="img/57069272N56be2185.png"/>
+                    </li>
+                    <li>
+                        <p>热卖商品</p>
+                        <span>低至7折</span>
+                        <img src="img/570692aaN71baf125.png"/>
+                    </li>
+                    <li>
+                        <p>品牌推荐</p>
+                        <span>大牌特卖</span>
+                        <img src="img/570692daNdbc625aa.png"/>
+                    </li>
+                    <li>
+                        <p>新店速递</p>
+                        <span>限时满减</span>
+                        <img src="img/570692f7Ne9806435.png"/>
+                    </li>
+                    <li>
+                        <p>果多美</p>
+                        <span>8折天天有</span>
+                        <img src="img/5704d900N68331cfe.png"/>
+                    </li>
+                    <li>
+                        <p>药圣堂</p>
+                        <span>全场满减</span>
+                        <img src="img/570674d4N0e3a4281.png"/>
+                    </li>
+                    <li>
+                        <p>鲜家爆品</p>
+                        <span>9.9专区</span>
+                        <img src="img/56f1f0ccN796a42c8.png"/>
+                    </li>
+                    <li>
+                        <p>鲜果8折</p>
+                        <span>满45-6</span>
+                        <img src="img/570545f3N54f984c9.png"/>
+                    </li>
+                    <li>
+                        <p>乐天超市</p>
+                        <span>6折起</span>
+                        <img src="img/56fce3e9N88f98689.png"/>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <footer>
+            <a href="" class="shouye">首页</a>
+            <a href="fenlei/fenlei.html"  target="_self" class="fenlei">分类</a>
+            <a href="gouwuche/gouwuche.html" target="_self" class="gouwuche">购物车</a>
+            <a href="dingdan/dingdan.html" target="_self" class="dingdan">订单</a>
+            <a href="mycenter/mycenter.html" target="_self" class="wode">我的</a>
+        </footer>
+    </section>
+</div>
+<script src="js/jquery-2.2.2.js"></script>
+<!--<script src="js/jquery.mobile-1.3.2.js"></script>-->
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/jddj.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+//        spaceBetween: 30,
+        loop: true
+    });
+</script>
 </body>
 </html>
