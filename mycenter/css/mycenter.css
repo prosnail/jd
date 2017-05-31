@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 微软雅黑, Arial;
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: rgb(244, 244, 244);
+    word-wrap: break-word;
+}
+
+section article .zhuce{
+    padding-top: 24px;
+    height: 90px;
+    background: url(../img/my_bg.jpg) center top no-repeat;
+    background-size: cover;
+}
+section article .zhuce i{
+    background: url(../img/bg_photo@2x.png) no-repeat;
+    background-size: auto 69px;
+    display: inline-block;
+    width: 69px;
+    height: 69px;
+    margin: 0 16px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+section article .zhuce span{
+    display: inline-block;
+    height: 27px;
+    padding: 0 10px;
+    color: #47b34f;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 27px;
+    background-color: #fff;
+    font-weight: 700;
+}
+section article .wallet{
+    height: 500px;
+}
+section article .wallet h3{
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #fff;
+}
+section article .wallet h3 i{
+    width: 26px;
+    height: 44px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -189px 0;
+    background-size: 320px auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 8px;
+    margin-left: 17px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+section article .wallet h3:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -80px -264px;
+    background-size: 320px auto;
+}
+article .wallet .yjb{
+    border-top: 1px dashed #e8e8e8;
+    padding-right: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+article .wallet .yjb a{
+    font-size: 13px;
+    display: inline-block;
+    min-width: 32%;
+    padding: 10px 0;
+    border-bottom: 0 none;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: -2px;
+}
+article .wallet .yjb a i{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+article .wallet .gb{
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+article .wallet .gb a{
+    display: block;
+    color: #555;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 14px;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+article .wallet .gb a .i1{
+    width: 26px;
+    height: 44px;
+    vertical-align: -16px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -191px -44px;
+    background-size: 320px auto;
+    display: inline-block;
+}
+article .wallet .gb a .i2{
+    width: 26px;
+    height: 44px;
+    vertical-align: -16px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -191px -88px;
+    background-size: 320px auto;
+    display: inline-block;
+}
+article .wallet .gb a .i3{
+    width: 26px;
+    height: 44px;
+    vertical-align: -16px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -189px -132px;
+    background-size: 320px auto;
+    display: inline-block;
+}
+article .wallet .gb a .i4{
+    width: 26px;
+    height: 44px;
+    vertical-align: -16px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -101px -131px;
+    background-size: 320px auto;
+    display: inline-block;
+}
+article .wallet .gb a .i5{
+    width: 26px;
+    height: 44px;
+    vertical-align: -16px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -189px -176px;
+    background-size: 320px auto;
+    display: inline-block;
+}
+article .wallet .gb a .i6{
+    width: 26px;
+    height: 44px;
+    vertical-align: -16px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -189px -220px;
+    background-size: 320px auto;
+    display: inline-block;
+}
+article .wallet .gb .a1:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -80px -264px;
+    background-size: 320px auto;
+}
+article .wallet .gb .a2:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -80px -264px;
+    background-size: 320px auto;
+}
+article .wallet .gb .a3:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    background: url(../img/pdj_2_sprites.png) no-repeat -80px -264px;
+    background-size: 320px auto;
+}
+
+
+
+
+
+
+
+
+footer {
+    height: 52px;
+    width: 100%;
+    color: #555;
+    font-size: 17px;
+    text-align: center;
+    line-height: 44px;
+    background-color: #fff;
+    border-top: 1px #ebebeb solid;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    width: 17%;
+    height: 20px;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 30px;
+    background: url(../img/nav2.png) no-repeat;
+    background-size: 22px 500px;
+    color: #555 !important;
+    font-weight: 500;
+}
+
+footer a.shouye {
+    background-position: center -250px;
+}
+
+footer a.fenlei {
+    background-position: center -300px;
+}
+
+footer a.gouwuche {
+    background-position: center -350px;
+}
+
+footer a.dingdan {
+    background-position: center -400px;
+}
+
+footer a.wode {
+    background-position: center -200px;
+}

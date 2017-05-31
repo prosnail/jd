@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 微软雅黑, Arial;
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #f7f7f7;
+    word-wrap: break-word;
+}
+
+article {
+    text-align: center;
+}
+
+article .gwc-container {
+    font-size: 15px;
+    text-align: center;
+    background: url(../img/unlogin.png) no-repeat center;
+    background-size: 96px 95px;
+    padding-top: 65%;
+}
+
+article .gwc-container p {
+    padding-top: 20px;
+    font-size: 15px;
+    color: #888;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+article .gwc-container a {
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 5px 10px;
+    height: 24px;
+    line-height: 24px;
+    color: #47b34f;
+    border: 1px solid #47b34f;
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+footer {
+    height: 52px;
+    width: 100%;
+    color: #555;
+    font-size: 17px;
+    text-align: center;
+    line-height: 44px;
+    background-color: #fff;
+    border-top: 1px #ebebeb solid;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    width: 17%;
+    height: 20px;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 30px;
+    background: url(../img/nav2.png) no-repeat;
+    background-size: 22px 500px;
+    color: #555 !important;
+    font-weight: 500;
+}
+
+footer a.shouye {
+    background-position: center -250px;
+}
+
+footer a.fenlei {
+    background-position: center -300px;
+}
+
+footer a.gouwuche {
+    background-position: center -350px;
+}
+
+footer a.dingdan {
+    background-position: center -150px;
+}
+
+footer a.wode {
+    background-position: center -450px;
+}
